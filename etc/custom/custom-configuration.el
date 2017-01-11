@@ -19,7 +19,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (ace-jump-mode js2-mode neotree flycheck imenu-list flyspell-popup imenu-anywhere web-mode window-numbering smex evil-matchit dracula-theme all-the-icons dash highlight-escape-sequences nlinum yasnippet json-mode company)))
+    (paredit octicons ace-jump-mode js2-mode neotree flycheck imenu-list flyspell-popup imenu-anywhere web-mode window-numbering smex evil-matchit dracula-theme all-the-icons dash highlight-escape-sequences nlinum yasnippet json-mode company)))
  '(sclang-auto-scroll-post-buffer t)
  '(sclang-eval-line-forward nil)
  '(show-paren-mode t)
