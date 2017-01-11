@@ -19,7 +19,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (paredit octicons ace-jump-mode js2-mode neotree flycheck imenu-list flyspell-popup imenu-anywhere web-mode window-numbering smex evil-matchit dracula-theme all-the-icons dash highlight-escape-sequences nlinum yasnippet json-mode company)))
+    (flyspell-correct paredit octicons ace-jump-mode js2-mode neotree flycheck imenu-list flyspell-popup imenu-anywhere web-mode window-numbering smex evil-matchit dracula-theme all-the-icons dash highlight-escape-sequences nlinum yasnippet json-mode company)))
  '(sclang-auto-scroll-post-buffer t)
  '(sclang-eval-line-forward nil)
  '(show-paren-mode t)
@@ -29,6 +29,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(default ((t (:family "Monaco" :foundry "nil" :slant normal :weight normal :height 140 :width normal))))
  '(diff-added ((t (:foreground "Green"))))
  '(diff-removed ((t (:foreground "Red"))))
  '(ediff-even-diff-A ((((class color) (background dark)) (:background "dark green"))))
